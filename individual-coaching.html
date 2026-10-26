@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Individual Coaching | Padme Oasis</title>
+  <meta name="description" content="Personalised coaching for senior professionals, technology leaders, founders and individuals navigating career transitions and personal growth.">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Sticky Top Header Navigation -->
+  <header class="header-nav">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="/" class="brand-logo">
+        <span class="brand-logo-mark"><i class="fa-solid fa-shapes"></i></span>
+        PADME OASIS
+      </a>
+
+      <!-- Desktop Links with Dropdown Menus -->
+      <nav class="d-none d-lg-flex align-items-center gap-3">
+        <a href="/" class="nav-link-custom">Home</a>
+        
+        <div class="nav-dropdown-wrapper">
+          <a href="/about-padme-oasis" class="nav-link-custom">
+            About Us <i class="fa-solid fa-chevron-down fs-7 ms-1"></i>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="/about-padme-oasis" class="dropdown-item-custom">
+              <i class="fa-solid fa-leaf text-emerald"></i> About Padme Oasis
+            </a>
+            <a href="/about-anushree" class="dropdown-item-custom">
+              <i class="fa-solid fa-user-tie text-emerald"></i> About Anushree
+            </a>
+          </div>
+        </div>
+
+        <div class="nav-dropdown-wrapper">
+          <a href="/individual-coaching" class="nav-link-custom active">
+            Services <i class="fa-solid fa-chevron-down fs-7 ms-1"></i>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="/individual-coaching" class="dropdown-item-custom">
+              <i class="fa-solid fa-grid-2 text-emerald"></i> Coaching Overview
+            </a>
+            <a href="/private-coaching" class="dropdown-item-custom">
+              <i class="fa-solid fa-user-check text-emerald"></i> Private 1:1 Coaching
+            </a>
+            <a href="/group-coaching" class="dropdown-item-custom">
+              <i class="fa-solid fa-circle-nodes text-emerald"></i> Group Coaching Circles
+            </a>
+            <a href="/retreats" class="dropdown-item-custom">
+              <i class="fa-solid fa-spa text-emerald"></i> Retreats & Immersions
+            </a>
+            <a href="/corporate-leadership-development" class="dropdown-item-custom">
+              <i class="fa-solid fa-building text-emerald"></i> Corporate Leadership
+            </a>
+            <a href="/executive-coaching" class="dropdown-item-custom">
+              <i class="fa-solid fa-briefcase text-emerald"></i> Executive Coaching
+            </a>
+          </div>
+        </div>
+
+        <a href="/our-approach" class="nav-link-custom">Our Approach</a>
+        <a href="/insights" class="nav-link-custom">Insights</a>
+        <a href="/contact" class="nav-link-custom">Contact Us</a>
+      </nav>
+
+      <div class="d-flex align-items-center gap-3">
+        <a href="tel:+91988800800" class="header-phone-link d-none d-xl-flex">
+          <span class="header-phone-icon"><i class="fa-solid fa-phone"></i></span>
+          +91 988 800 800
+        </a>
+        <button class="btn-infine-gradient d-none d-sm-inline-flex btn-book-intro" data-program="Individual Coaching">
+          Get In Touch <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+        </button>
+        <button class="btn btn-link text-dark fs-4 d-lg-none p-0 btn-mobile-toggle" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Offcanvas Navigation Drawer -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <div class="mobile-nav-drawer" id="mobileNavDrawer">
+    <div class="d-flex align-items-center justify-content-between mb-4">
+      <span class="brand-logo fs-4">PADME OASIS</span>
+      <button class="btn btn-link text-dark fs-4 p-0 btn-close-drawer"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <nav class="d-flex flex-column gap-3 mb-4">
+      <a href="/" class="nav-link-custom mobile-drawer-link">Home</a>
+      <a href="/about-padme-oasis" class="nav-link-custom mobile-drawer-link">About Padme Oasis</a>
+      <a href="/about-anushree" class="nav-link-custom mobile-drawer-link">About Anushree</a>
+      <a href="/individual-coaching" class="nav-link-custom mobile-drawer-link fw-semibold">Individual Coaching</a>
+      <a href="/private-coaching" class="nav-link-custom mobile-drawer-link ps-3 text-muted fs-6">Private 1:1 Coaching</a>
+      <a href="/group-coaching" class="nav-link-custom mobile-drawer-link ps-3 text-muted fs-6">Group Coaching Circles</a>
+      <a href="/retreats" class="nav-link-custom mobile-drawer-link ps-3 text-muted fs-6">Retreats & Immersions</a>
+      <a href="/corporate-leadership-development" class="nav-link-custom mobile-drawer-link">Corporate Programs</a>
+      <a href="/executive-coaching" class="nav-link-custom mobile-drawer-link ps-3 text-muted fs-6">Executive Coaching</a>
+      <a href="/our-approach" class="nav-link-custom mobile-drawer-link">Our Approach (TEA Model)</a>
+      <a href="/insights" class="nav-link-custom mobile-drawer-link">Insights & Resources</a>
+      <a href="/contact" class="nav-link-custom mobile-drawer-link">Contact Us</a>
+    </nav>
+    <button class="btn-infine-gradient w-100 justify-content-center btn-book-intro" data-program="Individual Coaching">
+      Get In Touch <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+    </button>
+  </div>
+
+  <main>
+    <!-- Inner Page Banner Card (INFINE UI Design) -->
+    <section class="page-hero-frame">
+      <div class="page-hero-card">
+        <div class="breadcrumb-pill">
+          <a href="/">Home</a> <i class="fa-solid fa-chevron-right fs-7 mx-1 text-white-50"></i> Services
+        </div>
+        <div class="hero-kicker-slash mb-2">
+          <span class="slash-prefix">//</span> PERSONAL DEVELOPMENT
+        </div>
+        <h1>Individual <span class="hero-gradient-text">Coaching</span></h1>
+        <p>Make space for what comes next with coaching tailored for senior professionals, technology leaders, entrepreneurs and individuals navigating pivotal transitions.</p>
+      </div>
+    </section>
+
+    <!-- Individual Offerings Grid -->
+    <section class="section-padding bg-ivory">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-lg-4 reveal-up">
+            <div class="card-padme">
+              <div class="card-img-wrapper">
+                <img src="/src/assets/images/individual_coaching_hero_1792998354316.jpg" alt="Private 1:1 Executive Coaching">
+              </div>
+              <span class="kicker-label">1:1 Deep Engagement</span>
+              <h3 class="fs-4 mb-3">Private 1:1 Coaching</h3>
+              <p class="fs-6 text-muted mb-4">A confidential space for leaders to explore complex career choices, unblock inner plateaus and cultivate deep self-awareness.</p>
+              <div class="mt-auto">
+                <a href="/private-coaching" class="btn-padme-primary w-100 justify-content-center">
+                  Explore Private Coaching
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-lg-4 reveal-up" style="transition-delay: 0.15s;">
+            <div class="card-padme">
+              <div class="card-img-wrapper">
+                <img src="/src/assets/images/tea_model_reflection_1792998354465.jpg" alt="Group Coaching Circles">
+              </div>
+              <span class="kicker-label">Cohort Programs</span>
+              <h3 class="fs-4 mb-3">Group Coaching Programs</h3>
+              <p class="fs-6 text-muted mb-4">Featuring <strong>The Prosperity Circle</strong> and <strong>Clarity Circle</strong> — structured group journeys providing peer wisdom and collective growth.</p>
+              <div class="mt-auto">
+                <a href="/group-coaching" class="btn-padme-primary w-100 justify-content-center">
+                  Explore Group Circles
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-lg-4 reveal-up" style="transition-delay: 0.3s;">
+            <div class="card-padme">
+              <div class="card-img-wrapper">
+                <img src="/src/assets/images/hero_padme_oasis_1792998353289.jpg" alt="Retreats & Immersive Experiences">
+              </div>
+              <span class="kicker-label">Immersive Travel</span>
+              <h3 class="fs-4 mb-3">Retreats & Immersions</h3>
+              <p class="fs-6 text-muted mb-4">Guided multi-day retreats in calm natural sanctuaries designed to disconnect from noise and recalibrate vision.</p>
+              <div class="mt-auto">
+                <a href="/retreats" class="btn-padme-primary w-100 justify-content-center">
+                  Explore Retreats
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-padme">
+    <div class="container text-center">
+      <p class="mb-0 text-white-50">© 2026 Padme Oasis. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

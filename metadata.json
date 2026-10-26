@@ -1,0 +1,6 @@
+{
+  "name": "Padme Oasis – Executive Coaching & Leadership Development",
+  "description": "Premium coaching, personal transformation and corporate leadership development for individuals and organisations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
